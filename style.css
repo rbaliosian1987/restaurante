@@ -12,8 +12,14 @@
 
 main{
     margin-top: 70px;
+    padding: 20px;
 }
 
+.portada{
+    height: 100px;
+    width: 120px;
+    border-radius: 10px;
+}
 
 
 /* navbar */
@@ -101,7 +107,7 @@ main{
 }
 
 .cards > div:hover > .top > .circle{
-    width: 100px;
+    width: 120px;
 }
 
 .cards > div:hover > .top > .circle > b{
@@ -173,4 +179,14 @@ a{
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+}
+
+/* otros */
+
+.platillos{
+    text-align: center;
+}
+
+.plato{
+    font-size: 16px;
 }
