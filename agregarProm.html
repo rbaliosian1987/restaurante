@@ -96,28 +96,54 @@
     <main>
         <div class="input-group mb-3">
             <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-utensils"></i></span>
-            <input type="text" class="form-control" placeholder="Nombre del plato" aria-label="Nombre del plato"
-                aria-describedby="basic-addon1">
+            <select>
+                <option selected> -- Selecciona un platillo --</option>
+                <option>Pastas</option>
+                <option>Milanesa</option>
+                <option>Hamburguesa</option>
+                <option>Carne Asada</option>
+                <option>Sopa</option>
+            </select>
         </div>
 
+        <h4>Portada</h4>
 
         <div class="input-group mb-3">
-            <input type="file" class="form-control" id="inputGroupFile02">
-            <label class="input-group-text" for="inputGroupFile02">Subir</label>
+            
+            <input type="file" class="form-control" placeholder="Selecciona una portada">
+            <label class="input-group-text" for="inputGroupFile02">Cargar</label>
         </div>
 
+        <h4>Precio</h4>
 
         <div class="input-group mb-3">
+            
             <span class="input-group-text">$</span>
             <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
             <span class="input-group-text">.00</span>
         </div>
-        <div class="input-group">
+
+        <div class="input-group mb-3">
             <span class="input-group-text">Descripción</span>
             <textarea class="form-control" aria-label="With textarea"></textarea>
         </div>
 
+        <h4>Fecha de inicio</h4>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text"><i class="fa-solid fa-calendar"></i></span>
+            <input type="date" class="form-control">
+        </div>
+
+        <h4>Fecha de finalización</h4>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text"><i class="fa-solid fa-calendar"></i></span>
+            <input type="date" class="form-control">
+        </div>
+
         <h4><button class="btn btn-primary mt-3">Guardar</button></h4>
+
     </main>
 
     <footer>

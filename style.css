@@ -183,10 +183,67 @@ a{
 
 /* otros */
 
+h1{
+    text-align: center;
+}
+
 .platillos{
     text-align: center;
 }
 
 .plato{
     font-size: 16px;
+}
+
+.starts{
+    color: #f7ca03;
+}
+
+h4{
+    text-align: center;
+}
+
+
+/* login */
+
+.login-main{
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.login{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 50px;
+}
+
+.big{
+    font-size: 3rem;
+    padding: 10px;
+    color: #21cd9b;
+    transition: all ease .3s;
+    cursor: pointer;
+}
+
+
+.login-btn{
+    color: #fff;
+    background-color: #21cd9b;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+.login-btn:hover > big {
+    color: #f7ca03;
+}
+
+/* footer */
+
+footer{
+    text-align: center;
 }
